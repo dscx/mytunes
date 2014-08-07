@@ -18,7 +18,6 @@ var SongQueue = Songs.extend({
       }
     }, this);
 
-    //it expects the remove call to be here
 
   },
 
