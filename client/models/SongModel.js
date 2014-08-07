@@ -6,12 +6,12 @@ var SongModel = Backbone.Model.extend({
     this.trigger('play', this);
   },
 
-  //this adds songs to a queue
+  //this adds songs to a collection
   enqueue: function(){
     this.trigger('enqueue', this);
   },
 
-  //takes the next queue song out
+  //removes song that was selected from Songqueue collection
   dequeue: function(){
     this.trigger('dequeue', this);
   },
