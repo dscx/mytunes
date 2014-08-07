@@ -11,7 +11,9 @@ var SongQueue = Songs.extend({
 
     this.on("ended", function(){
       this.shift();
-      this.playFirst(); //problem line yea...
+      if(this.length !== 0){
+        this.playFirst();
+      }
     }, this);
 
   },
