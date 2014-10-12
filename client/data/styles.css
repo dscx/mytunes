@@ -1,0 +1,15 @@
+
+
+.playlist {
+  display: block;
+  position: relative;
+  margin-left: 500px;
+},
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
